@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background-color :#445075;
+     
+}  
+/* Add a black background color to the top navigation */
+nav {
+    background-color:  #445075;
+    overflow: hidden;
+   
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } 
+  
+  /* Style the links inside the navigation bar */
+  a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 24px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+  }
+  /* Change the color of links on hover */
+    a:hover {
+    background-color: rgb(136, 231, 175);
+    color: rgb(212, 126, 186);
+    margin: 15px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  
+ header {
+    background-color:  #445075 ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100px;
+    background-size: 50% 50% / cover;
+    background-repeat: no-repeat;
+ }
+ header h2 {
+    font-family:  Helvetica;
+    font-size:  28px;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    color: rgb(240, 233, 233);
+    padding: 30px;
+  }
+
+  .container {
+      display: flex;
+      background-color: #4e5d88;
+      flex-direction: column;
+      border-radius: 10px;
+
+  }
+
+.container > div {
+    background-color: #4e5d88; 
+    margin: 20px;
+    padding: 20px;
+    font-family: helvetica;
+    font-size: medium;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(240, 233, 233);
+    border-radius: 10px;
+  }
+
+
+.container p {
+    font-family:  Helvetica;
+    font-size:  18px;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    color: rgb(240, 233, 233);
+    margin-left: 130px; 
+    line-height: 22px; 
+  }
+
+.container {
+    background-color: #445075;
+    padding: 20px 40px;
+    height: 2000px;
+    background-size: 100% / cover;
+    background-repeat: no-repeat;
+  }
+  
+.container a {
+    font-family: Helvetica;
+    text-decoration: none;
+    padding-bottom: 3px;
+    color: rgb(216, 199, 49);
+    float: none;
+    display: inline;
+        
+    }
+.container a, a:hover {
+    color: rgb(238, 114, 31);
+    margin: 15px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+    
+
+
+
+
+
+
+
+    
+
+
+  
+  
